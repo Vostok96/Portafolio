@@ -110,15 +110,17 @@ img {
 }
 
 .grid--container {
-  max-width: 1024px;
+  max-width: 80rem;
+  /* width: 99%; */
   display: grid;
   margin: 0 var(--mr-3);
+  
 }
 
 .btn {
   display: inline-block;
   padding: 1.5rem 4rem;
-  
+  margin-top: 2rem;
   outline: none;
   border-radius: 30px;
   border-color: rgb(24, 0, 95);
@@ -131,8 +133,6 @@ img {
 .btn--primary {
   background-color: #c5bbbb;
   color: #000000;
-  
-  
 }
 
 .btn:hover {
@@ -312,6 +312,7 @@ img {
 
 .home__buttons {
   text-align: center;
+  
 }
 
 /* ========= ABOUT =========  */
@@ -437,6 +438,13 @@ img {
   background-color: white;
   border-radius: 5px;
   margin: 0 auto;
+}
+
+.contact__info-map{
+  display: flex;
+  margin-top: 2rem;
+  border-radius: 5px;
+ 
 }
 
 .contact__form-group {
