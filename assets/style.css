@@ -249,10 +249,11 @@ img {
   
 }
 
+
 .home__container {
   position: relative;
   row-gap: 2rem;
-  padding: var(--header-height) 0 3rem;
+  padding: 10rem;
 }
 
 .home__image{
@@ -290,11 +291,13 @@ img {
   z-index: 1;
   color: #999ca0;
   display: flex;
+  
 }
 
 .home__title{
   margin: 0;
   margin-bottom: var(--mr-2);
+  margin-top: -100rem;
   text-transform: uppercase;
   z-index: 1;
   
@@ -311,6 +314,8 @@ img {
 
 .about__description {
   text-align: center;
+  margin: 2.5rem;
+
 }
 
 .about__skills {
@@ -325,21 +330,36 @@ img {
 
 .about__card {
   background-color: var(--card-color);
-  padding: 4rem 2rem 2rem;
-  border-radius: 5px;
+  padding: 2rem 2rem 2rem;
+  border-radius: 10px;
+  border: 2px solid #ee991a;
   box-shadow: var(--box-shadow);
+  top: 25px;
+  transition: all 800ms ease;
+  
 }
+.about__card:hover{
+  transform: translateY(-10%);
+} 
 
 .about__card .bx {
   padding: 12px;
   font-size: 2rem;
   border-radius: 50px;
-  background-color: var(--skill-icons-color); 
+  background-color: var(--skill-icons-color);
+  
+  
 }
 .about__tags-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  
+}
+
+
+.text__card:hover{
+  cursor: pointer;
 }
 
 .about__tag {
@@ -489,7 +509,7 @@ textarea {
   --bg-color: #000000;
   --home-color: #232020;
   --about-color: #333;
-  --card-color: #363535;
+  --card-color: #111010;
   --skill-icons-color: #333;
   --navbar-color: #ffffff;
   --tag-color:#464646;
