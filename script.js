@@ -19,3 +19,12 @@ const button2 = document.querySelector('.btn.projects__buttons');
 button2.addEventListener('click', function() {
   window.open('./assets/project_1/neon.html', '_blank');
 });
+
+const button3 = document.querySelectorAll('.projects__project')[1].querySelector('.projects__buttons button:first-of-type');
+button3.addEventListener('click', () => {
+  window.open('./assets/project_2/reloj.html', '_blank');
+});
+const button4 = document.querySelectorAll('.projects__project')[2].querySelector('.projects__buttons button:first-of-type');
+button4.addEventListener('click', () => {
+  window.open('./assets/project_3/text_light.html', '_blank');
+});
