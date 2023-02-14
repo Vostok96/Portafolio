@@ -13,3 +13,9 @@ button.addEventListener("click", function() {
   link.target = "_blank";
   link.click();
 });
+
+const button2 = document.querySelector('.btn.projects__buttons');
+
+button2.addEventListener('click', function() {
+  window.open('./assets/project_1/neon.html', '_blank');
+});
