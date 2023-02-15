@@ -11,6 +11,7 @@
     flex-direction: column;
     overflow: hidden;
     
+    
 }
 
 .bg-animation .row{
@@ -41,11 +42,13 @@ i:hover {
 .bg-animation .row div {
     animation: animate1 80s linear infinite;
     animation-delay: -80s;
+    /* display: flex; */
 }
 
 .bg-animation .row div:nth-child(2) {
     animation: animate2 80s linear infinite;
     animation-delay: -40s;
+    /* display: flex; */
 }
 
 @keyframes animate1 {
